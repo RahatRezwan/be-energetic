@@ -1,6 +1,6 @@
 .main-container {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 4fr 1.8fr;
     background-color: #ebffff;
 }
 .exercise-container {
@@ -11,4 +11,51 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+    justify-content: center;
+}
+
+.summary-div {
+    background-color: white;
+}
+@media screen and (max-width: 1350px) {
+    .main-container {
+        grid-template-columns: 2fr 2fr;
+    }
+    .exercise-container {
+        margin: 30px 50px;
+    }
+    .exercise-div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 1030px) {
+    .main-container {
+        grid-template-columns: 1fr 2fr;
+    }
+    .exercise-container {
+        margin: 30px;
+    }
+    .exercise-div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width: 768px) {
+    .main-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .exercise-container {
+        margin: 30px;
+    }
+    .exercise-div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 660px) {
+    .main-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .exercise-div {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
