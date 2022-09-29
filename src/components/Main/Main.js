@@ -3,6 +3,7 @@ import Exercise from "../Exercise/Exercise";
 import "./Main.css";
 
 const Main = () => {
+    /* create state for fetching exercise */
     const [exercises, setExercises] = useState([]);
     useEffect(() => {
         fetch("exercise.json")
