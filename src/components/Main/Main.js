@@ -13,7 +13,7 @@ const Main = () => {
     }, []);
     return (
         <div className="main-container">
-            <div>
+            <div className="exercise-container">
                 <h2>Select Your Exercise</h2>
                 <div className="exercise-div">
                     {exercises.map((exercise) => (

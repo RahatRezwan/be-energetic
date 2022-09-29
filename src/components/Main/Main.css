@@ -1,8 +1,14 @@
 .main-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
+    background-color: #ebffff;
+}
+.exercise-container {
+    margin: 50px 70px;
 }
 .exercise-div {
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
 }
