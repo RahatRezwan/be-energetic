@@ -1,0 +1,86 @@
+[
+    {
+        "id": "6334f00f6629be4a75ce2791",
+        "img": "./exercise/exercise-1.png",
+        "name": "Table Tennis",
+        "details": "table tennis, also called Ping-Pong, ball game similar in principle to lawn tennis and played on a flat table divided into two equal courts by a net fixed across its width at the middle.",
+        "time": 30
+    },
+    {
+        "id": "6334f00f89f06397b2c3aa12",
+        "img": "./exercise/exercise-2.png",
+        "name": "Playing Cricket",
+        "details": "Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 22-yard (20-metre) pitch with a wicket at each end, each comprising two bails balanced on three stumps.",
+        "time": 120
+    },
+    {
+        "id": "6334f00fe970f34c813f3b42",
+        "img": "./exercise/exercise-3.png",
+        "name": "Playing Football",
+        "details": "Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football normally means the form of football that is the most popular where the word is used.",
+        "time": 90
+    },
+    {
+        "id": "6334f00ff702a2b985cd6818",
+        "img": "./exercise/exercise-4.png",
+        "name": "Playing Badminton",
+        "details": "Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. Although it may be played with larger teams, the most common forms of the game are singles (with one player per side) and doubles (with two players per side).",
+        "time": 120
+    },
+    {
+        "id": "6334f00f251696f165cc884c",
+        "img": "./exercise/exercise-5.png",
+        "name": "Cycling",
+        "details": "Cycling, also, when on a two-wheeled bicycle, called bicycling or biking, is the use of cycles for transport, recreation, exercise or sport. People engaged in cycling are referred to as cyclists, bicyclists, or bikers",
+        "time": 60
+    },
+    {
+        "id": "6334f00f80c14ccccff19dc5",
+        "img": "./exercise/exercise-6.png",
+        "name": "Sprinting",
+        "details": "Sprinting is running over a short distance at the top-most speed of the body in a limited period of time. It is used in many sports that incorporate running, typically as a way of quickly reaching a target or goal, or avoiding or catching an opponent.",
+        "time": 10
+    },
+    {
+        "id": "6334f00f905a6873e57e5471",
+        "img": "./exercise/exercise-7.png",
+        "name": "Walking",
+        "details": "Walking (also known as ambulation) is one of the main gaits of terrestrial locomotion among legged animals. Walking is typically slower than running and other gaits.",
+        "time": 15
+    },
+    {
+        "id": "6334f00f39bb5762a07c6c9d",
+        "img": "./exercise/exercise-8.png",
+        "name": "Jumping",
+        "details": "Jumping or leaping is a form of locomotion or movement in which an organism or non-living mechanical system propels itself through the air along a ballistic trajectory.",
+        "time": 2
+    },
+    {
+        "id": "6334f00fc5f0d23254c63549",
+        "img": "./exercise/exercise-9.png",
+        "name": "Bench Press",
+        "details": "The bench press, or chest press, is a weight training exercise in which the trainee presses a weight upwards while lying on a weight training bench. Although the bench press is a full-body exercise, the muscles primarily used are the pectoralis major, the anterior deltoids, and the triceps, among other stabilizing muscles.",
+        "time": 1
+    },
+    {
+        "id": "6334f00f74c42c4d25af4eea",
+        "img": "./exercise/exercise-10.png",
+        "name": "Push Ups",
+        "details": "The push-up is a common calisthenics exercise beginning from the prone position. By raising and lowering the body using the arms, push-ups exercise the pectoral muscles, triceps, and anterior deltoids, with ancillary benefits to the rest of the deltoids, serratus anterior, coracobrachialis and the midsection as a whole",
+        "time": 2
+    },
+    {
+        "id": "6334f00ff412f0fbadbc8e7f",
+        "img": "./exercise/exercise-11.png",
+        "name": "Planking",
+        "details": "The plank (also called a front hold, hover, or abdominal bridge) is an isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time.",
+        "time": 2
+    },
+    {
+        "id": "6334f00f6069311d940f693c",
+        "img": "./exercise/exercise-12.png",
+        "name": "Weight Lifting",
+        "details": "Weightlifting generally refers to activities in which people lift weights, often in the form of dumbbells or barbells. People lift various kinds of weights for a variety of different reasons.",
+        "time": 1
+    }
+]
