@@ -3,7 +3,7 @@ import "./Interval.css";
 const Interval = ({ interval, handleBreakTime }) => {
     return (
         <div>
-            <button className="interval-btn" onClick={() => handleBreakTime(interval.num)}>
+            <button className="interval-btn" onClick={() => handleBreakTime(interval)}>
                 <p>{interval.num}</p>
             </button>
         </div>

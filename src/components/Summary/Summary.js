@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Summary.css";
 import myPic from "../../my-pic.jpg";
 import Interval from "../Interval/Interval";
+import { addIntervalToLocalDb, getStoredTime } from "../../utilities/utilities";
 const Summary = (props) => {
     const { timeTaken } = props;
     console.log(timeTaken);
@@ -17,8 +18,18 @@ const Summary = (props) => {
             .then((data) => setBreaks(data));
     }, []);
 
+    useEffect(() => {
+        const storedTime = getStoredTime("Break");
+        let savedTime = 0;
+        for (const id in storedTime) {
+            savedTime = savedTime + storedTime[id];
+        }
+        setintervalTime(savedTime);
+    }, [breaks]);
+
     const handleBreakTime = (interval) => {
-        setintervalTime(interval);
+        setintervalTime(interval.num);
+        addIntervalToLocalDb("Break", interval.id, interval.num);
     };
     return (
         <div className="summary">
@@ -77,6 +88,10 @@ const Summary = (props) => {
                     <h3>Break Time</h3>
                     <p>{intervalTime} Minutes</p>
                 </div>
+            </div>
+
+            <div className="activity-btn-div">
+                <button className="activity-btn">Activity Complete</button>
             </div>
         </div>
     );

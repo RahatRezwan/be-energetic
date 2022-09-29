@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "question": "How React Works?",
+        "answer": "React is component based system. React has it's own DOM. Which is called virtual DOM. When a component become changes React compare the changes with it's virtual DOM. Then it render the changed component inside real DOM. This is how react actually works."
+    },
+    {
+        "id": 2,
+        "question": "Props Vs State",
+        "answer": "Prop's data can be passed from one component to another. It's data is immutable. Props can be used with state and functional components.Props are read-only. On the other hand state's data can be passed within the component only. It is mutable unlike props. State can be used only with the state components/class component State is both read and write"
+    },
+    {
+        "id": 3,
+        "question": "Use of useEffect()",
+        "answer": "useEffect() is basically use for creating side effect inside react app. It can be use for fetching data, handle asynchronous operations like setTimeOut, setCount, setInterval functions. It is use for directly update the dom."
+    }
+]

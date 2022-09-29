@@ -32,3 +32,23 @@
 .exercise-time {
     justify-content: space-between;
 }
+
+.activity-btn-div {
+    margin-top: 20px;
+    text-align: center;
+}
+.activity-btn {
+    width: 80%;
+    height: 50px;
+    border: 1px solid #0c0c0c;
+    border-radius: 10px;
+    background-color: #0c303d;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.activity-btn:hover {
+    background-color: white;
+    color: #0c0c0c;
+}

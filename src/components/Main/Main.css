@@ -1,7 +1,9 @@
+.main-section {
+    background-color: #ebffff;
+}
 .main-container {
     display: grid;
     grid-template-columns: 4fr 2fr;
-    background-color: #ebffff;
 }
 .exercise-container {
     margin: 50px;
@@ -18,6 +20,14 @@
     background-color: white;
     padding: 20px;
 }
+
+.que-container {
+    padding: 20px 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
 @media screen and (max-width: 1350px) {
     .main-container {
         grid-template-columns: 2fr 2fr;
