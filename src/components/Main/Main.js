@@ -5,7 +5,8 @@ import Questions from "../Questions/Questions";
 import Summary from "../Summary/Summary";
 import "./Main.css";
 
-const Main = () => {
+const Main = (props) => {
+    const { notify } = props;
     /* create state for fetching exercise */
     const [exercises, setExercises] = useState([]);
     /* State for exercisetime */
@@ -56,7 +57,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="summary-div">
-                    <Summary timeTaken={timeTaken}></Summary>
+                    <Summary notify={notify} timeTaken={timeTaken}></Summary>
                 </div>
             </div>
             <div className="que-container">

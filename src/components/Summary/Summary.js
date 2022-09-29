@@ -3,9 +3,9 @@ import "./Summary.css";
 import myPic from "../../my-pic.jpg";
 import Interval from "../Interval/Interval";
 import { addIntervalToLocalDb, getStoredTime } from "../../utilities/utilities";
+import { ToastContainer } from "react-toastify";
 const Summary = (props) => {
-    const { timeTaken } = props;
-    console.log(timeTaken);
+    const { timeTaken, notify } = props;
     /* Get Breaktime state */
     const [breaks, setBreaks] = useState([]);
 
@@ -91,7 +91,10 @@ const Summary = (props) => {
             </div>
 
             <div className="activity-btn-div">
-                <button className="activity-btn">Activity Complete</button>
+                <button onClick={notify} className="activity-btn">
+                    Activity Complete
+                </button>
+                <ToastContainer></ToastContainer>
             </div>
         </div>
     );
