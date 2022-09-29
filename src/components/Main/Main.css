@@ -1,10 +1,10 @@
 .main-container {
     display: grid;
-    grid-template-columns: 4fr 1.8fr;
+    grid-template-columns: 4fr 2fr;
     background-color: #ebffff;
 }
 .exercise-container {
-    margin: 50px 70px;
+    margin: 50px;
 }
 .exercise-div {
     margin-top: 20px;
@@ -16,6 +16,7 @@
 
 .summary-div {
     background-color: white;
+    padding: 20px;
 }
 @media screen and (max-width: 1350px) {
     .main-container {

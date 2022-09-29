@@ -1,0 +1,14 @@
+.interval-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: none;
+    background-color: white;
+    color: #0c303d;
+    font-size: 17px;
+    font-weight: 700;
+}
+.interval-btn:hover {
+    background-color: #0c303d;
+    color: white;
+}
