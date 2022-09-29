@@ -7,7 +7,7 @@
     {
         "id": 2,
         "question": "Props Vs State",
-        "answer": "Prop's data can be passed from one component to another. It's data is immutable. Props can be used with state and functional components.Props are read-only. On the other hand state's data can be passed within the component only. It is mutable unlike props. State can be used only with the state components/class component State is both read and write"
+        "answer": "Prop's data can be passed from one component to another. It's data is immutable. Props can be used with state and functional components.Props are read-only. On the other hand state's data can be passed within the component only. It is mutable unlike props. State can be used only with the state components/class component State is both read and write."
     },
     {
         "id": 3,
