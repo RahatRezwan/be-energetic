@@ -5,7 +5,7 @@ const Exercise = ({ exercise }) => {
     console.log(exercise);
     const { img, name, details, time, Age } = exercise;
     return (
-        <div>
+        <div className="exercise">
             <img src={img} alt="" />
             <h5>{name}</h5>
             <p>{details}</p>

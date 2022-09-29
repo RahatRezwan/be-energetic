@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Exercise from "../Exercise/Exercise";
+import Summary from "../Summary/Summary";
 import "./Main.css";
 
 const Main = () => {
@@ -11,13 +12,18 @@ const Main = () => {
             .then((data) => setExercises(data));
     }, []);
     return (
-        <div>
+        <div className="main-container">
             <div>
-                {exercises.map((exercise) => (
-                    <Exercise key={exercise.id} exercise={exercise}></Exercise>
-                ))}
+                <h2>Select Your Exercise</h2>
+                <div className="exercise-div">
+                    {exercises.map((exercise) => (
+                        <Exercise key={exercise.id} exercise={exercise}></Exercise>
+                    ))}
+                </div>
             </div>
-            <div></div>
+            <div className="summary-div">
+                <Summary></Summary>
+            </div>
         </div>
     );
 };

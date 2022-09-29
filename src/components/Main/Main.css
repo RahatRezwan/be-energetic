@@ -1,0 +1,8 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.exercise-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
